@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "npmaps"
+version = "0.1.0"
+description = "Update the Night Sky Data Collection Sites NPMaps on the NSNSD website."
+authors = ["Li-Wei Hung <li-wei_hung@nps.gov>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+geojson = "^3.2.0"
+numpy = "^2.2.1"
+datetime = "^5.5"
+ipython = "^8.31.0"
+pillow = "^11.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
